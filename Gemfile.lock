@@ -1,8 +1,8 @@
 GEM
   remote: http://rubygems.org/
   specs:
-    addressable (2.5.1)
-      public_suffix (~> 2.0, >= 2.0.2)
+    addressable (2.8.1)
+      public_suffix (>= 2.0.2, < 6.0)
     backports (3.10.3)
     colorator (1.1.0)
     em-websocket (0.5.1)
@@ -11,7 +11,6 @@ GEM
     eventmachine (1.2.5)
     eventmachine (1.2.5-x86-mingw32)
     ffi (1.9.18)
-    ffi (1.9.18-x86-mingw32)
     forwardable-extended (2.6.0)
     http_parser.rb (0.6.0)
     jekyll (3.4.3)
@@ -51,7 +50,7 @@ GEM
     multi_json (1.12.2)
     pathutil (0.14.0)
       forwardable-extended (~> 2.6)
-    public_suffix (2.0.5)
+    public_suffix (5.0.0)
     rack (1.6.8)
     rack-protection (1.5.3)
       rack
